@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://hpoirot22.github.io/social-links-profile/)
 
 ## My process
 
@@ -28,4 +28,4 @@ This project was great practice for solidifying my knowledge of Flexbox for cont
 
 ## Author
 
-- Coded by - [Victória Nascimento](https://www.github.com/your-username)
+- Coded by - [Victória Nascimento](https://github.com/HPoirot22)
