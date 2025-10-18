@@ -1,0 +1,106 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color:hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.profile-picture img {
+  width: 40%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.localization {
+  color:  hsl(75, 94%, 57%);
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.bio {
+  font-size: 0.9rem;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  padding: 1rem;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  z-index: 100; 
+  position: fixed; 
+  bottom: 0; 
+  left: 0;
+  right: 0;
+}
+
+/* Media Query para Telas Maiores (Desktop - A partir de 1440px) */
+@media (min-width: 1440px) {
+    
+    body {
+        /* Remove o padding lateral, se desejar um layout de ponta a ponta */
+        padding: 40px 0; 
+    }
+
+    .card-blog {
+        /* Aumenta a largura do card para o layout de desktop */
+        width: 100%;
+        max-width: 400px; 
+    }
+
+    .card-image {
+        height: 200px; /* Altura maior para a imagem */
+    }
+
+    .card-body {
+        padding: 30px 40px; /* Mais padding interno */
+    }
+
+    .card-title {
+        font-size: 28px; /* Título maior */
+    }
+  }
